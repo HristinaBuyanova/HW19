@@ -1,4 +1,5 @@
 import UIKit
+import CryptoKit
 
 func getData(urlRequest: String) {
     let urlRequest = URL(string: urlRequest)
@@ -31,4 +32,6 @@ getData(urlRequest: "http://dog-api.kinduff.com/api/facts?number=5")
 //Marvel
 let publicKey = "340c54ef487f6035b5c56989ac428fe9"
 let privateKey = "99b5d5af3ac00d0dfe52a594b62d2b03c552e3c5"
+
+
 
