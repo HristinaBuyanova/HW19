@@ -2,7 +2,6 @@ import Foundation
 import CryptoKit
 
 // MD5
-
 public extension String {
     func MD5() -> String {
         let digest = Insecure.MD5.hash(data: Data(self.utf8))
